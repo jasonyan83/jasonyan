@@ -2,7 +2,7 @@
   "id": "sample.helloworld.20130703.1",
   "files": [{
     "id": "sample.helloworld.20130703.1",
-    "md5": "41f392c0643292c7aef53c0e58496bbd",
+    "md5": "6796de268539adaef9e6d708d8b3f786",
     "url": "https://raw.github.com/jasonyan83/jasonyan/master/sample.helloworld.20130703.1.apk"
   }],
   "fragments": [
