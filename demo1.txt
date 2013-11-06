@@ -1,20 +1,20 @@
 {
-  "id": "demo.20131106.2",
+  "id": "demo.20131106.1",
   "files": [{
-    "id": "demo.20131106.2",
-    "url": "https://raw.github.com/jasonyan83/jasonyan/master/demo.20131106.2.apk"
+    "id": "demo.20131106.1",
+    "url": "https://raw.github.com/jasonyan83/jasonyan/master/demo.20131106.1.apk"
   }],
   "fragments": [
     {
       "host": "helloworld",
       "name": "sample.helloworld.HelloFragment",
-      "code": "demo.20131106.2"
+      "code": "demo.20131106.1"
     },
     {
       "host": "pickname",
       "name": "sample.helloworld.PickerFragment",
-      "code": "demo.20131106.2"
+      "code": "demo.20131106.1"
     }
   ],
-  "version": "20131106.2"
+  "version": "20131106.1"
 }
