@@ -1,0 +1,114 @@
+{
+    "version": "20131210.1",
+    "mainentrance": {
+        "featurename": "com.skymobi.demo.plugin.people.main.PluginPeopleMain",
+        "method": "launchPeoplePluginMainUI"
+    },
+    "commonfeatures": [
+        {
+            "featurename": "abc",
+            "version": "1"
+        },
+        {
+            "featurename": "efg",
+            "version": "1"
+        }
+    ],
+    "apiplugins": [
+        {
+            "pluginid": "com.skymobi.demo.plugin.bizApi",
+            "url": "https://raw.github.com/jasonyan83/jasonyan/master/api.apk",
+            "description": "this is bizApi plugin",
+            "entrance": "com.skymobi.demo.plugin.api.BizApiFacade",
+            "version": "1"
+        }
+    ],
+    "plugins": [
+        {
+            "pluginid": "com.skymobi.demo.plugin.location",
+            "url": "https://raw.github.com/jasonyan83/jasonyan/master/location.apk",
+            "description": "this is location service plugin",
+            "entrance": "com.skymobi.demo.plugin.location.LocationServiceFacade",
+            "version": "1",
+            "capability": [
+                {
+                    "featurename": "com.skymobi.demo.plugin.api.location.ILocationService",
+                    "version": "1"
+                }
+            ]
+        },
+        {
+            "pluginid": "com.skymobi.demo.plugin.account",
+            "url": "https://raw.github.com/jasonyan83/jasonyan/master/account.apk",
+            "description": "this is account service plugin",
+            "entrance": "com.skymobi.demo.plugin.house.account.AccountServiceFacade",
+            "version": "1",
+            "capability": [
+                {
+                    "featurename": "com.skymobi.demo.plugin.api.account.IAccountService",
+                    "version": "1"
+                }
+            ],
+            "deps": [
+                {
+                    "featurename": "com.skymobi.demo.plugin.api.location.ILocationService",
+                    "version": "1"
+                }
+            ]
+        },
+         {
+            "pluginid": "com.skymobi.demo.plugin.ui.people",
+            "url": "https://raw.github.com/jasonyan83/jasonyan/master/people.apk",
+            "description": "this is people UI plugin",
+            "entrance": "com.skymobi.demo.plugin.peopleui.PeopleUIFacade",
+            "version": "1",
+            "capability": [
+                {
+                    "featurename": "com.skymobi.demo.plugin.peopleui.PeopleEntranceFragment",
+                    "version": "1"
+                }
+            ],
+            "deps": [
+                {
+                    "featurename": "com.skymobi.demo.plugin.api.fragment.IHouseEntranceFragment",
+                    "version": "1"
+                }
+            ]
+        },
+        {
+            "pluginid": "com.skymobi.demo.plugin.ui.house",
+            "url": "https://raw.github.com/jasonyan83/jasonyan/master/house.apk",
+            "description": "this is house UI plugin",
+            "entrance": "com.skymobi.demo.plugin.house.HouseUIFacade",
+            "version": "1",
+            "capability": [
+             {
+                    "featurename": "com.skymobi.demo.plugin.api.fragment.IHouseEntranceFragment",
+                    "version": "1"
+                },
+                {
+                    "featurename": "com.skymobi.demo.plugin.house.HouseSearchResultFragment",
+                    "version": "1"
+                },
+                {
+                    "featurename": "com.skymobi.demo.plugin.house.HouseFragment",
+                    "version": "1"
+                },
+                {
+                    "featurename": "com.skymobi.demo.plugin.house.SingleInstanceHouseFragment",
+                    "version": "1"
+                }
+            ],
+            "deps": [
+                {
+                    "featurename": "com.skymobi.demo.plugin.api.location.ILocationService",
+                    "version": "1"
+                },
+                {
+                    "featurename": "com.skymobi.demo.plugin.api.account.IAccountService",
+                    "version": "1"
+                }
+            ]
+        }
+    ]
+}
