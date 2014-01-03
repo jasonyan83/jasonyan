@@ -1,5 +1,5 @@
 {
-    "version": "20131211",
+    "version": "20141211",
     "mainentrance": {
         "featurename": "com.skymobi.demo.plugin.people.main.PluginPeopleMain",
         "method": "launchPeoplePluginMainUI"
@@ -58,10 +58,10 @@
         },
          {
             "pluginid": "com.skymobi.demo.plugin.ui.people",
-            "url": "https://raw.github.com/jasonyan83/jasonyan/master/people3.apk",
+            "url": "https://raw.github.com/jasonyan83/jasonyan/master/people4.apk",
             "description": "this is people UI plugin",
             "entrance": "com.skymobi.demo.plugin.peopleui.PeopleUIFacade",
-            "version": "3",
+            "version": "4",
             "capability": [
                 {
                     "featurename": "com.skymobi.demo.plugin.peopleui.PeopleEntranceFragment",
