@@ -1,0 +1,76 @@
+{
+    "version": "20140106.1",
+    "mainentrance": {
+        "featurename": "com.skymobi.demo.plugin.house.main.PluginHouseuiMain",
+        "method": "launchHousePluginMainUI"
+    },
+    "commonfeatures":[
+    	{
+        	"featurename":"com.skymobi.musicstore.common.PhoneInfo",
+         	"version" : "1"
+    	},
+    	{
+        	"featurename":"com.skymobi.musicstore.common.StoreInfo",
+        	"version" : "1"
+    	},
+    	{
+        	"featurename":"com.skymobi.musicstore.common.SessionInfo",
+        	"version" : "1"
+    	}
+    ],
+    "plugins": [
+        {
+            "pluginid": "com.skymobi.musicstore.ui",
+            "url": "https://raw.github.com/jasonyan83/jasonyan/master/music_plugin_v2.apk",
+            "description": "this is the music main ui plugin",
+            "entrance": "com.skymobi.musicstore.fragment.MusicUIFacade",
+            "version": "2",
+            "capability" : [
+			{
+			   "featurename": "com.skymobi.musicstore.fragment.LogoFragment",
+			   "version" : "1"
+			},
+			{
+			   "featurename": "com.skymobi.musicstore.fragment.FrameFragment",
+			   "version" : "1"
+			},
+			{
+			   "featurename": "com.skymobi.musicstore.fragment.TabFragment",
+			   "version" : "1"
+			},
+			{
+			   "featurename": "com.skymobi.musicstore.fragment.NoTabFragment",
+			   "version" : "1"
+			},
+			{
+			   "featurename": "com.skymobi.musicstore.fragment.LinkFragment",
+			   "version" : "1"
+			},
+			{
+			   "featurename": "com.skymobi.musicstore.fragment.LocalFragment",
+			   "version" : "1"
+			},
+			{
+			   "featurename": "com.skymobi.musicstore.fragment.CommonFragment",
+			   "version" : "1"
+			},
+			{
+			   "featurename": "com.skymobi.musicstore.fragment.SearchFragment",
+			   "version" : "1"
+			},			
+			{
+			   "featurename": "com.skymobi.musicstore.fragment.SettingFragment",
+			   "version" : "1"
+			},		
+			{
+			   "featurename": "com.skymobi.musicstore.fragment.DlgUseFragment",
+			   "version" : "1"
+			},
+			{
+			   "featurename": "com.skymobi.musicstore.fragment.DlgDeleteFragment",
+			   "version" : "1"
+			}
+			]
+        }
+    ]
+}
