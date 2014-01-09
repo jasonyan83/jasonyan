@@ -66,6 +66,14 @@
                 {
                     "featurename": "com.skymobi.demo.plugin.peopleui.PeopleEntranceFragment",
                     "version": "1"
+                },
+				{
+                    "featurename": "com.skymobi.demo.plugin.peopleui.PluginStatusQueryFragment",
+                    "version": "1"
+                },
+				{
+                    "featurename": "com.skymobi.demo.plugin.peopleui.PluginStatusQueryResultFragment",
+                    "version": "1"
                 }
             ],
             "deps": [
