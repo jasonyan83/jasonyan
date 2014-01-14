@@ -83,6 +83,25 @@
                 }
             ]
         },
+		{
+            "pluginid": "com.skymobi.demo.plugin.ui.dynamic",
+            "url": "https://raw.github.com/jasonyan83/jasonyan/master/dynamic.apk",
+            "description": "this is dynamic UI plugin",
+            "entrance": "com.skymobi.demo.plugin.dynamicui.DynamicUIFacade",
+            "version": "1",
+            "capability": [
+                {
+                    "featurename": "com.skymobi.demo.plugin.dynamicui.DynamicUIFacade",
+                    "version": "1"
+                }
+            ],
+            "deps": [
+                {
+                    "featurename": "com.skymobi.demo.plugin.api.account.IAccountService",
+                    "version": "1"
+                }
+            ]
+        },
         {
             "pluginid": "com.skymobi.demo.plugin.ui.house",
             "url": "https://raw.github.com/jasonyan83/jasonyan/master/house.apk",
