@@ -1,5 +1,5 @@
 {
-    "version": "20141211",
+    "version": "20141212",
     "mainentrance": {
         "featurename": "com.skymobi.demo.plugin.people.main.PluginPeopleMain",
         "method": "launchPeoplePluginMainUI"
