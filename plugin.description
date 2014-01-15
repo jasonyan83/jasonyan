@@ -91,7 +91,7 @@
             "version": "1",
             "capability": [
                 {
-                    "featurename": "com.skymobi.demo.plugin.dynamicui.DynamicUIFacade",
+                    "featurename": "com.skymobi.demo.plugin.dynamicui.DynamicUIFragment",
                     "version": "1"
                 }
             ],
